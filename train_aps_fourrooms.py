@@ -136,4 +136,4 @@ if __name__ == "__main__":
             eval_return = evaluation(eval_algo, args)
             writer.add_scalar("Evaluation/episode_reward", eval_return, algo.total_it)
             writer.flush()
-            algo.save(model_dir, t + 1, args)e
+            algo.save(model_dir, t + 1, args)
